@@ -1,0 +1,96 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+main{
+    margin-left: 80px;
+    margin-bottom: 50px;
+    overflow: hidden ;
+    display: flex;
+}   
+
+body{
+    background-image: url(imagenes/fondo.png);
+    background-size:cover
+}
+
+.title-encrip{
+    font-size: 4.5em;
+    color:#0892fb;
+    font-weight: bolder;
+    margin-top: 60px;
+    margin-left: calc(15%);
+    position: absolute;
+    display: inline-block;
+}
+
+.logo-encrip{
+    width: 150px;
+    position: relative;
+    margin: 20px 50px 20px auto;
+}
+
+.txtfencrip{
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 90px;
+    padding: 280px 50px;
+    border-radius: 7px;
+    font-size: 1.7em;
+}
+
+::placeholder{
+    color:rgba(77, 77, 77, 0.601);
+    font-size: 3em;
+    text-overflow: clip;
+}
+
+.msjdecrip{
+    float: left;
+}
+
+.txtencrip{
+    background-image: url(imagenes/nada_aun.png);
+    background-size: 350px 500px;
+    background-repeat: no-repeat;
+    background-position:calc(100% - 100px);
+    margin-top: 30px;
+    margin-left: 90px;
+    padding: 300px 200px;
+    border-radius: 7px;
+}
+
+.botones{
+  margin: 20px 0 0 250px;
+  position:relative;
+}
+.encriptar{
+    position: relative;
+    padding: 15px 40px;
+    border-radius: 12px;
+    color:#ffffff;
+    background: #4169e1;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.desencriptar{
+    position: relative;
+    padding: 15px 40px;
+    border-radius: 12px;
+    color:#ffffff;
+    background: #4169e1;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.copiar{
+    position: relative;
+    padding: 15px 40px;
+    border-radius: 12px;
+    color:#ffffff;
+    background: #4169e1;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 25px 0 0 330px;
+}
